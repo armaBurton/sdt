@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Alegreya SC', serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Russo One', sans-serif;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	height: 100px;
+	width: 100%;
+	background-color: red;
+	position: fixed;
+	display: flex;
+	align-items: center;
+}
+
+#logo {
+	height: 80px;
+	margin-left: 50px;
+	z-index: 10;
+}
+
+ul{
+	font-family: 'Russo One', sans-serif;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	margin-right: 50px;
+	margin-left: auto;
+}
+
+li{
+	margin-left: 10px;
+	color: white;
+	font-size: 2rem;
+}
+
+#outer {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+#home-top-video:before {
+  content:"";
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  z-index:1;
+  background:rgba(0, 0, 0, .5);
+}
+
+#home-top-video {
+  left: 0%;
+  top: 0%;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  z-index: -1;
+}
+
+#page2{
+	height: 100vh;
+	background-color: pink;
+}
