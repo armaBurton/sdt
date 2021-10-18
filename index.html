@@ -3,7 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="./css/nav.css">
 	<link rel="stylesheet" type="text/css" href="./css/styles.css">
-	
+	<link rel="shortcut icon" href="./images/SDTBlack.png" type="image/x-icon">
 	<meta charset="utf-8">
 	<title></title>
 </head>
@@ -75,13 +75,13 @@
 
 	<div id="projects">
 		<h1 class="sectionHead">Projects</h1>
-		<div class="project">
+		<div class="project" id="p-one">
 			<h2>High End Ultrasound System</h2>
-			<p>Analog aquisition and multiplexer boards. These boards provide low noise acquisition of a large number of signals at high speed, 
+			<p id="p1-p1">Analog aquisition and multiplexer boards. These boards provide low noise acquisition of a large number of signals at high speed, 
 				format and transmit the data to a digital control board and then to a controlling computer. The analog signal acquisition board 
 				has over 3400 parts and 16 layers with extensive plane and island design to preserve the low noise signals in a noisy digital 
 				environment. Four 676 pin BGA FPGA's provide local control. Formatted data is transmitted out at 48 Gb/sec. For more information 
-				visit <a href="http://delphinusmt.com" target="_blank">delphinusmt.com</a></p>
+				visit <a class="dark-link" href="http://delphinusmt.com" target="_blank">delphinusmt.com</a></p>
 				<div class="pics">	
 					<div class="image">
 						<img class="project-image" src="./images/ultrasound01.jpg" alt="Production Run">
@@ -98,34 +98,35 @@
 				</div>
 		</div>
 
-		<div class="project">
+		<div class="project" id="p-two">
 			<h2>Heartstream XLT Defibrillator</h2>
-			<p>System and main controller design. Overall product validation, test, and regulatory qualification testing. 
+			<p id=p2-p1>System and main controller design. Overall product validation, test, and regulatory qualification testing. 
 				This was the last product designed by the resuscitation group of Agilent Technologies (previously Hewlett Packard, now Philips) 
 				in McMinnville, OR.</a></p>
-				<div class="pics">	
-					<div class="image">
-						<img class="project-image" src="./images/defib.jpg" alt="Defibrillator">
-						<caption>XLT Defibrillator</caption>
-					</div>
+			<div class="pics">	
+				<div class="image">
+					<img class="project-image" src="./images/defib.jpg" alt="Defibrillator">
+					<caption>XLT Defibrillator</caption>
 				</div>
+			</div>
 		</div>
 
-		<div class="project sm">
+		<div class="project" id="p-three">
 			<h2>Inovise Heart Sound Detection Algorithm</h2>
-			<p>Developed the heart sound detection algorithm used in the Inovise Audicor product. This was an extensive DSP algorithm 
+			<p id="p3-p1">Developed the heart sound detection algorithm used in the Inovise Audicor product. This was an extensive DSP algorithm 
 				project that involved data collection, biomedical research and sensitivity-specificity evaluation. 
 				You can view the resulting published application at the United States Patent and Trademark Office:<span style="font-family: monospace;"> 20040267148</span> 
-				(30Dec04 - Method and System for Detection of Heart Sounds). To view Audicor products visit: <a href="https://inovise.com" target="_blank">inovise.com</a></p>
+				(30Dec04 - Method and System for Detection of Heart Sounds). <br>
+				To view Audicor products visit: <a class="dark-link" href="https://inovise.com" target="_blank">inovise.com</a></p>
 				
-				<p>Received Medical Design Excellence Award in 2004 for development of this algorithm. <br>
-				<img src="./images/excellent.jpg" alt=""></p>
-				
+			<p id="p3-p2"><img src="./images/excellent.jpg" alt="">Received Medical Design Excellence Award in 2004 for development of this algorithm.
+			</p>
+			
 		</div>
 
-		<div class="project lg">
+		<div class="project" id="p-four">
 			<h2>Large Industrial Research Test System</h2>
-			<p>The exact details of this project are proprietary information reserved by the customer. 
+			<p id="p4-p1">The exact details of this project are proprietary information reserved by the customer. 
 				It has 128 RF channels and puts out about 1.3kW of power. Responsible for much of the system design and integration as well 
 				as design and layout of the multichannel output circuit boards. This was a project coordinated between 7 local area 
 				engineering contractors combining the expertise of Electrical Engineers (analog, digital and RF), Software developers, and 
@@ -149,7 +150,7 @@
 						<caption>Output Board</caption>
 					</div>
 					<div class="image">
-						<img class="project-image" src="./images/output-cabling.jpg" alt="Output Cabling" style="height: 300px">
+						<img class="project-image" src="./images/output-cabling.jpg" alt="Output Cabling">
 						<caption>Output Cabling</caption>
 					</div>
 					<div class="image">
@@ -164,9 +165,13 @@
 	<div id="about">
 		<div class="content">
 			<h1 class="sectionHead">About</h1>
-			<p><strong><u>Sirius Design and Technology, LLC</u></strong> is a contract engineering firm specializing in electrical aspects of product development, design and test.</p>
+			<p><strong><u>Sirius Design and Technology, LLC</u></strong> is a contract engineering firm specializing in electrical aspects 
+				of product development, design and test.</p>
 
-			<p>Through close association with firms offering mechanical and software design we are able to offer multidisciplinary services. These services could be small contained portions of a project you need help with, or could range up to full product design and test - from concept to manufacturing. We have combined product design experience of over 100 years and have completed major projects with customers such as Hewlett Packard, Philips Medical, Delphinus Medical and many others.</p>
+			<p>Through close association with firms offering mechanical and software design we are able to offer multidisciplinary services. 
+				These services could be small contained portions of a project you need help with, or could range up to full product design and 
+				test - from concept to manufacturing. We have combined product design experience of over 100 years and have completed major
+				projects with customers such as Hewlett Packard, Philips Medical, Delphinus Medical and many others.</p>
 		</div>
 		<div class="content selfie">
 			<img class="dave" src="images/MeAtWork.jpg">
