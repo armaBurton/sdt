@@ -70,3 +70,8 @@ li{
 	height: 100vh;
 	background-color: pink;
 }
+
+#services {
+	border-top: 10px solid #00022e;
+	background-color: pink;
+}

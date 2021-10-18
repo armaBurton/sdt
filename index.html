@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="css/testStyles.css">
-	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="./css/nav.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	
 	<meta charset="utf-8">
 	<title></title>
 </head>
@@ -40,15 +41,124 @@
 			<img id="logoSplash" src="images/SDTLogoWhite.png">
 		</div>
 		<div id="videoHolder">
-			<video autoplay loop muted width="100%" src="video/websiteVideo.mp4">
+			<video autoplay loop muted width="100%" src="./video/websiteVideo.mp4">
 			</video>
 		</div>
 	</div>
 
 	<div id="services">
+		<h1 class="sectionHead">Services</h1>
+		<ul>
+			<li>Analog/Digital circuit design</li>
+			<li>Embedded processors and firmware</li>
+			<li>Digital signal processing (DSP) algorithms</li>
+			<li>Battery power systems
+				<ul>
+					<li>Battery powered devices</li>
+					<li>Battery chargers</li>
+					<li>Battery maintenance devices</li>
+				</ul>
+			</li>
+			<li>Product test and manufacturability</li>
+			<li>Printed circuit board (PCB) and product design for environmental and regulatory compatability
+				<ul>
+					<li>Radio frequency (RF) emissions</li>
+					<li>Electrostatic discharge (ESD) and RF susceptibility</li>
+					<li>Temperature performance</li>
+					<li>And more</li>
+				</ul>
+			</li>
+			<li>Thermal scanning and imaging of power consuming assemblies (Infrared imaging)</li>
+			<li>Schematic capture and PCB design (Multisim/Ultiboard design tools)</li>
+		</ul>
 	</div>
 
 	<div id="projects">
+		<h1 class="sectionHead">Projects</h1>
+		<div class="project">
+			<h2>High End Ultrasound System</h2>
+			<p>Analog aquisition and multiplexer boards. These boards provide low noise acquisition of a large number of signals at high speed, 
+				format and transmit the data to a digital control board and then to a controlling computer. The analog signal acquisition board 
+				has over 3400 parts and 16 layers with extensive plane and island design to preserve the low noise signals in a noisy digital 
+				environment. Four 676 pin BGA FPGA's provide local control. Formatted data is transmitted out at 48 Gb/sec. For more information 
+				visit <a href="http://delphinusmt.com" target="_blank">delphinusmt.com</a></p>
+				<div class="pics">	
+					<div class="image">
+						<img class="project-image" src="./images/ultrasound01.jpg" alt="Production Run">
+						<caption>Production Run</caption>
+					</div>
+					<div class="image">
+						<img class="project-image" src="./images/multiplexer.jpg" alt="Multiplexer Board">
+						<caption>Multiplexer Board</caption>
+					</div>
+					<div class="image">
+						<img class="project-image" src="./images/signal.jpg" alt="Production Run">
+						<caption>Signal Acquisition Board</caption>
+					</div>
+				</div>
+		</div>
+
+		<div class="project">
+			<h2>Heartstream XLT Defibrillator</h2>
+			<p>System and main controller design. Overall product validation, test, and regulatory qualification testing. 
+				This was the last product designed by the resuscitation group of Agilent Technologies (previously Hewlett Packard, now Philips) 
+				in McMinnville, OR.</a></p>
+				<div class="pics">	
+					<div class="image">
+						<img class="project-image" src="./images/defib.jpg" alt="Defibrillator">
+						<caption>XLT Defibrillator</caption>
+					</div>
+				</div>
+		</div>
+
+		<div class="project sm">
+			<h2>Inovise Heart Sound Detection Algorithm</h2>
+			<p>Developed the heart sound detection algorithm used in the Inovise Audicor product. This was an extensive DSP algorithm 
+				project that involved data collection, biomedical research and sensitivity-specificity evaluation. 
+				You can view the resulting published application at the United States Patent and Trademark Office:<span style="font-family: monospace;"> 20040267148</span> 
+				(30Dec04 - Method and System for Detection of Heart Sounds). To view Audicor products visit: <a href="https://inovise.com" target="_blank">inovise.com</a></p>
+				
+				<p>Received Medical Design Excellence Award in 2004 for development of this algorithm. <br>
+				<img src="./images/excellent.jpg" alt=""></p>
+				
+		</div>
+
+		<div class="project lg">
+			<h2>Large Industrial Research Test System</h2>
+			<p>The exact details of this project are proprietary information reserved by the customer. 
+				It has 128 RF channels and puts out about 1.3kW of power. Responsible for much of the system design and integration as well 
+				as design and layout of the multichannel output circuit boards. This was a project coordinated between 7 local area 
+				engineering contractors combining the expertise of Electrical Engineers (analog, digital and RF), Software developers, and 
+				Mechanical Engineers.</p>
+				<div class="pics-lg">	
+					<div class="image">
+						<img class="project-image" src="./images/prototype-circuit.jpg" alt="Prototype circuit">
+						<caption>Prototype Circuit</caption>
+					</div>
+					<div class="image">
+						<img class="project-image" src="./images/close-up-1-chan.jpg" alt="close up one channel">
+						<caption>One Channel Close Up</caption>
+					</div>
+					<div class="image">
+						<img class="project-image" src="./images/close-up-8-chan.jpg" alt="close up eight channel">
+						<caption>Eight Channel Close Up</caption>
+					</div>
+
+					<div class="image">
+						<img class="project-image" src="./images/output-board.jpg" alt="Output Board">
+						<caption>Output Board</caption>
+					</div>
+					<div class="image">
+						<img class="project-image" src="./images/output-cabling.jpg" alt="Output Cabling" style="height: 300px">
+						<caption>Output Cabling</caption>
+					</div>
+					<div class="image">
+						<img class="project-image" src="./images/full-system.jpg" alt="full system">
+						<caption>Full System</caption>
+					</div>
+				</div>
+		</div>
+	
 	</div>
 
 	<div id="about">
@@ -64,28 +174,21 @@
 	</div>
 
 	<footer id="footer">
-		copyright &copy MMXXI &nbsp; <img id="icon" src="images/SDTIcon.png"> &nbsp; <span id="logoType">SIRIUS</span> &nbsp; <span id="subhead">DESIGN & TECHNOLOGY</span>
+		<div id="copyright">
+			<p class="footer-info copy">copyright &copy MMXXI&nbsp; <img id="icon" src="images/SDTIcon.png"> <span id="logoType">SIRIUS</span>&nbsp;<span id="subhead">DESIGN & TECHNOLOGY</span></p>
+			<p class="footer-info">2300 SW 2nd St., STE A</p>
+			<p class="footer-info address">McMinnville, OR 97128</p>
+			<p class="footer-info">503.332.5176 // <a href="mailto:dburton97128@yahoo.com">dburton97128@yahoo.com</a></p>
+		</div>
+		<!-- <form id="contact" method="post" action="send" enctype = "multipart/form-data"> 
+			<h2>Contact:</h2>
+			<input class="input-size" id="name" type="text" placeholder="name" required>
+			<input class="input-size" id="email" type="email" placeholder="email" required>
+			<input class="input-size" id="subject" type="text" placeholder="subject" required>
+			<textarea id="message" type="text" placeholder="message" required></textarea>	
+			<input id="send" type="submit" value="send">
+		</form> -->
 	</footer>
-
-
-
-
-
-
-
-	<!-- <div id="outer">
-	    <div id="home-top-video">
-	      <video autoplay loop muted width="100%">
-	        <source src="video/websiteVideo.mp4" type="video/mp4" /> 
-	      </video>
-	      <div id="logo">
-	      	<div id="logoSplash">
-	      		<img src="images/SDTLogoWhite.png">
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-	  <div id="page2">
-	  </div> -->
+	<script src="./js/script.js"></script>
 </body>
 </html>

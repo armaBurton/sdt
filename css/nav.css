@@ -25,7 +25,7 @@ nav{
 	z-index: 10;
 }
 
-ul{
+#navbar ul{
 	font-family: 'Russo One', sans-serif;
 	list-style-type: none;
 	display: flex;
